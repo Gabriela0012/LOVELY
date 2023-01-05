@@ -1,0 +1,15 @@
+
+
+<div class="col-12 col-md-4 mb-3">
+  <div class="card mt-5 item" style="width: 15rem;" data-id={{_id}} >
+      <img src={{thumbnail}} class="card-img-top item-thumbnail" style="height: 17rem;" alt="...">
+        <div class="card-body">
+            <h5 class="item-name">{{name}}</h5>
+          <p class="card-text item-price">$ {{price}}</p>
+            <form action="/api/products/{{_id}}?_method=DELETE" method="POST">
+              <input type="hidden" name="_method" value="DELETE">
+              <button class="btn btn-danger buttonDelete" type="submit">ELIMINAR</button>
+            </form>
+        </div>
+  </div>
+</div>
