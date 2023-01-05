@@ -11,7 +11,7 @@ Proyecto Final de Backend
     "method-override"
     "moment"
     "mongoose"
-    "multer":
+    "multer"
     "nodemailer"
     "passport"
     "passport-local"
