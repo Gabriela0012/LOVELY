@@ -1,6 +1,6 @@
 # LOVELY
 Proyecto Final de Backend
-## DEPLOY PROYECT
+## PROYECTO DESPLEGADO
 https://lovelyback-production.up.railway.app/
 ### DEPENDENCIAS
 
